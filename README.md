@@ -80,7 +80,6 @@ In the last phase of digital forensics, a detailed report is prepared. This repo
 
 ## **Fields of Digital Forensics**
 
-![Forensics Fields](https://via.placeholder.com/100x100/800080/FFFFFF?text=📱💻)
 
 As part of the collection phase, we saw that various pieces of evidence can be found at the crime scene. Analyzing these multiple categories of evidence requires various tools and techniques. There are different types of digital forensics, all with their own collection and analysis methodologies. Some of the most common types are listed below.
 
@@ -107,20 +106,6 @@ A formal document that tracks evidence handling from collection to court.
 Prevents alteration of original evidence during acquisition.
 
 ---
-
-## **Windows Forensics: Tools & Techniques**
-
-![Windows Tools](https://via.placeholder.com/80x80/FFA500/FFFFFF?text=🛠️)
-
-| **Tool** | **Purpose** |
-|----------|-------------|
-| **FTK Imager** | Disk image acquisition & analysis |
-| **Autopsy** | Open-source forensic analysis platform |
-| **DumpIt** | Memory image acquisition |
-| **Volatility** | Memory image analysis |
-
----
-
 ## **Integration with SOC Processes**
 
 ### **Key SOC Processes**
@@ -142,6 +127,10 @@ Prevents alteration of original evidence during acquisition.
 - **MTTD**: Mean Time to Detect
 - **MTTR**: Mean Time to Respond
 - **MTTI**: Mean Time to Investigate
+
+  Case Conclusion:
+
+This digital forensics investigation successfully identified Ann Gree Shepherd as the primary suspect through PDF metadata analysis and uncovered evidence of image manipulation via timestamp inconsistencies in the photograph. The tools pdfinfo and exiftool provided critical technical evidence linking the suspect to the crime, while maintaining proper forensic protocols. The case demonstrates how digital evidence—when collected and analyzed correctly—can be decisive in criminal investigations.
 
 
 
